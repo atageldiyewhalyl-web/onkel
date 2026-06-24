@@ -90,31 +90,20 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  min-width: 210px;
+  gap: 0;
+  min-width: 0;
 }
 
 .brand-logo {
   display: block;
-  width: 48px;
-  height: 48px;
+  height: 44px;
+  width: auto;
+  max-width: 200px;
   object-fit: contain;
 }
 
-.brand strong,
-.brand small {
-  display: block;
-  line-height: 1.05;
-}
-
-.brand strong {
-  font-size: 1rem;
-}
-
-.brand small {
-  margin-top: 3px;
-  color: var(--muted);
-  font-size: 0.78rem;
+.brand span {
+  display: none;
 }
 
 .desktop-nav {
@@ -2214,12 +2203,9 @@ body.nav-open .mobile-menu {
   }
 
   .brand-logo {
-    width: 42px;
-    height: 42px;
-  }
-
-  .brand small {
-    display: none;
+    height: 38px;
+    width: auto;
+    max-width: 170px;
   }
 
   .header-call {
