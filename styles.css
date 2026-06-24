@@ -1759,12 +1759,14 @@ body.nav-open .nav-toggle span:nth-child(3) {
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  padding: 84px 18px 22px;
+  padding: 84px 18px calc(22px + env(safe-area-inset-bottom));
   background: var(--white);
-  border-bottom: 1px solid var(--line);
   box-shadow: 0 22px 44px rgba(10, 18, 28, 0.16);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   transform: translateY(-100%);
   visibility: hidden;
   transition:
