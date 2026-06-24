@@ -2687,3 +2687,20 @@ body.nav-open .mobile-menu {
 .signs-image.is-weitere-hebeanlagen {
   background-image: url("./Wietere%20leistungen%20kanalreinigung%20.jpeg"); /* Placeholder */
 }
+
+/* ── Homepage mobile: show "SO EINFACH GEHT'S" before "WARUM ONKEL" ── */
+@media (max-width: 680px) {
+  .home-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-main .hero          { order: 1; }
+  .home-main .intro-section { order: 2; }
+  .home-main .services-section { order: 3; }
+  .home-main .cta-band      { order: 4; }
+  .home-main .process-section { order: 5; }
+  .home-main .why-section   { order: 6; }
+  .home-main .area-section  { order: 7; }
+  .home-main .faq-section   { order: 8; }
+  .home-main .final-cta     { order: 9; }
+}
