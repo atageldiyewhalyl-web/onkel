@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /impressum/
+Disallow: /datenschutz/
+
+# AI crawlers – allow full access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://onkel-dienstleistungen.de/sitemap.xml
