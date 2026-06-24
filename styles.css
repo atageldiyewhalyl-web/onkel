@@ -245,7 +245,7 @@ a {
 .hero-media {
   background:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Hero background .png");
+    url("./hero-background.webp");
   background-position: center right;
   background-size: cover;
   transform: scale(1.01);
@@ -261,42 +261,42 @@ a {
 .hero-media.is-rohr {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Rohrreinigung.png");
+    url("./rohrreinigung.webp");
 }
 
 /* page-specific hero background (Abflussreinigung service page) */
 .hero-media.is-abfluss {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Rohrreinigung.png");
+    url("./rohrreinigung.webp");
 }
 
 /* page-specific hero background (Kanalreinigung service page) */
 .hero-media.is-kanal {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Kanalbau_1x1.jpg");
+    url("./kanalbau-1x1.webp");
 }
 
 /* page-specific hero background (Notdienst service page) */
 .hero-media.is-notdienst {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Rohrreinigung.png");
+    url("./rohrreinigung.webp");
 }
 
 /* page-specific hero background (Kanalbau service page) */
 .hero-media.is-kanalbau {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./kanalbau%20hero.avif");
+    url("./kanalbau-hero.webp");
 }
 
 /* page-specific hero background (Instandsetzung service page) */
 .hero-media.is-instandsetzung {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./Kanalbau_1x1.jpg");
+    url("./kanalbau-1x1.webp");
 }
 
 .hero-stamp {
@@ -514,7 +514,7 @@ h1 {
   margin-top: 0;
   border-radius: 0;
   background:
-    url("./flooded room.png");
+    url("./flooded-room.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -522,11 +522,11 @@ h1 {
 }
 
 .intro-image.is-rohrreinigung-photo {
-  background-image: url("./65cb987fdc3fe5deccf9e7d0_DSC09542_komp.jpg");
+  background-image: url("./about-us-photo.webp");
 }
 
 .intro-image.is-abfluss-photo {
-  background-image: url("./Abfluss_verstopft_Spirale_Fotolia_RioPatuca_Images.width-800.jpg.avif");
+  background-image: url("./abfluss-spirale.webp");
 }
 
 .intro-image.is-kanal-photo {
@@ -534,7 +534,7 @@ h1 {
 }
 
 .intro-image.is-kavanoz-photo {
-  background-image: url("./kavanoz.jpeg");
+  background-image: url("./kavanoz.webp");
 }
 
 .intro-image.is-notdienst-photo {
@@ -542,11 +542,11 @@ h1 {
 }
 
 .intro-image.is-kanalbau-photo {
-  background-image: url("./kanalbau%20first%20image%20.jpeg");
+  background-image: url("./kanalbau-first-image.webp");
 }
 
 .intro-image.is-instandsetzung-photo {
-  background-image: url("./kanalbau%20about%20us.jpeg");
+  background-image: url("./kanalbau-about-us.webp");
 }
 
 
@@ -756,7 +756,7 @@ h1 {
 }
 
 .cta-media {
-  background: url("./Plumbing%20mna.png");
+  background: url("./plumbing-mna.webp");
   background-position: center;
   background-size: cover;
 }
@@ -1093,7 +1093,7 @@ h1 {
 .cta-media.is-weitere-leistungen-cta {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./Image%20for%20weitere%20leistungen.jpeg");
+    url("./image-weitere-leistungen.webp");
 }
 
 .cta-media.is-instandsetzung-cta {
@@ -1107,7 +1107,7 @@ h1 {
   border-top: 1px solid var(--line);
   background:
     linear-gradient(rgba(246, 247, 245, 0.82), rgba(246, 247, 245, 0.82)),
-    url("./mannheim%20background.png");
+    url("./mannheim-background.webp");
   background-position: center;
   background-size: cover;
 }
@@ -1304,7 +1304,7 @@ h1 {
   padding: clamp(90px, 11vw, 168px) max(28px, calc((100vw - 1160px) / 2));
   background:
     linear-gradient(90deg, rgba(133, 24, 28, 0.95) 0%, rgba(159, 32, 36, 0.86) 44%, rgba(159, 32, 36, 0.55) 100%),
-    url("./Plumbing%20.png");
+    url("./plumbing.webp");
   background-position: center right;
   background-size: cover;
   color: var(--white);
@@ -2031,27 +2031,27 @@ body.nav-open .mobile-menu {
 .signs-image {
   width: 100%;
   min-height: 540px;
-  background: url("./Hero background .png") center / cover no-repeat;
+  background: url("./hero-background.webp") center / cover no-repeat;
 }
 
 .signs-image.is-weitere-leistungen {
-  background-image: url("./alet.jpeg");
+  background-image: url("./alet.webp");
 }
 
 .signs-image.is-kanal-signs {
-  background-image: url("./kanalreinigung%20second%20image.jpeg");
+  background-image: url("./kanalreinigung-second-image.webp");
 }
 
 .signs-image.is-weitere-kanal {
-  background-image: url("./Wietere%20leistungen%20kanalreinigung%20.jpeg");
+  background-image: url("./weitere-leistungen-kanalreinigung.webp");
 }
 
 .signs-image.is-notdienst-signs {
-  background-image: url('./rohrreinigung%20%20ANZEICHEN%20ERKENNEN.jpeg');
+  background-image: url('./rohrreinigung-anzeichen-erkennen.webp');
 }
 
 .signs-image.is-kanalbau-signs {
-  background-image: url("./kanalbau.jpeg");
+  background-image: url("./kanalbau.webp");
 }
 
 .signs-image.is-instandsetzung-signs {
@@ -2059,7 +2059,7 @@ body.nav-open .mobile-menu {
 }
 
 .signs-image.is-weitere-instandsetzung {
-  background-image: url("./Wietere%20leistungen%20kanalreinigung%20.jpeg");
+  background-image: url("./weitere-leistungen-kanalreinigung.webp");
 }
 
 @media (max-width: 980px) {
@@ -2704,7 +2704,7 @@ body.nav-open .mobile-menu {
 .hero-media.is-gebaeudereinigung {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./csm_rahmer-dienstleistung-gebaeudereinigung-hygienereinigung_be29a16fb2.jpg");
+    url("./gebaeudereinigung-hygienereinigung.webp");
 }
 
 .intro-image.is-gebaeudereinigung-photo {
@@ -2718,18 +2718,18 @@ body.nav-open .mobile-menu {
 .cta-media.is-gebaeudereinigung-cta {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./Gebaeudereinigung-in-Bochum-scaled.jpg");
+    url("./gebaeudereinigung-bochum.webp");
 }
 
 .signs-image.is-weitere-gebaeudereinigung {
-  background-image: url("./buero-reinigung.jpg");
+  background-image: url("./buero-reinigung.webp");
 }
 
 /* Fliesenleger service page backgrounds */
 .hero-media.is-fliesenleger {
   background-image:
     linear-gradient(90deg, rgba(7, 16, 25, 0.62) 0%, rgba(7, 16, 25, 0.4) 40%, rgba(7, 16, 25, 0.04) 80%),
-    url("./shutterstock_624787547.png");
+    url("./shutterstock-624787547.webp");
 }
 
 .intro-image.is-fliesenleger-photo {
@@ -2737,7 +2737,7 @@ body.nav-open .mobile-menu {
 }
 
 .signs-image.is-fliesenleger-signs {
-  background-image: url("./Image%20for%20weitere%20leistungen.jpeg");
+  background-image: url("./image-weitere-leistungen.webp");
 }
 
 .cta-media.is-fliesenleger-cta {
@@ -2771,11 +2771,11 @@ body.nav-open .mobile-menu {
 }
 
 .ba-image.ba-before {
-  background-image: url("../before.jpeg");
+  background-image: url("../before.webp");
 }
 
 .ba-image.ba-after {
-  background-image: url("../after.jpeg");
+  background-image: url("../after.webp");
 }
 
 .ba-label {
@@ -2827,11 +2827,11 @@ body.nav-open .mobile-menu {
 }
 
 .intro-image.is-hebeanlagen-photo {
-  background-image: url("./rohrreinigung  ANZEICHEN ERKENNEN.jpeg");
+  background-image: url("./rohrreinigung-anzeichen-erkennen.webp");
 }
 
 .signs-image.is-hebeanlagen-signs {
-  background-image: url("./Image%20for%20weitere%20leistungen.jpeg"); /* Placeholder */
+  background-image: url("./image-weitere-leistungen.webp"); /* Placeholder */
 }
 
 .cta-media.is-hebeanlagen-cta {
@@ -2841,7 +2841,7 @@ body.nav-open .mobile-menu {
 }
 
 .signs-image.is-weitere-hebeanlagen {
-  background-image: url("./Wietere%20leistungen%20kanalreinigung%20.jpeg"); /* Placeholder */
+  background-image: url("./weitere-leistungen-kanalreinigung.webp"); /* Placeholder */
 }
 
 /* ── Homepage mobile: show "SO EINFACH GEHT'S" before "WARUM ONKEL" ── */
