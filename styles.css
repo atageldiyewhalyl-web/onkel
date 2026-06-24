@@ -1094,7 +1094,7 @@ h1 {
   padding: var(--section-pad) max(28px, calc((100vw - 1160px) / 2));
   border-top: 1px solid var(--line);
   background:
-    linear-gradient(rgba(246, 247, 245, 0.45), rgba(246, 247, 245, 0.45)),
+    linear-gradient(rgba(246, 247, 245, 0.82), rgba(246, 247, 245, 0.82)),
     url("./mannheim%20background.png");
   background-position: center;
   background-size: cover;
