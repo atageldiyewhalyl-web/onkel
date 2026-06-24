@@ -355,6 +355,10 @@ h1 {
   line-height: 1.5;
 }
 
+.page-kanalreinigung .hero h1 {
+  max-width: 900px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -518,11 +522,19 @@ h1 {
 }
 
 .intro-image.is-rohrreinigung-photo {
-  background-image: url("./rohrreinigung%20image.webp");
+  background-image: url("./65cb987fdc3fe5deccf9e7d0_DSC09542_komp.jpg");
+}
+
+.intro-image.is-abfluss-photo {
+  background-image: url("./Abfluss_verstopft_Spirale_Fotolia_RioPatuca_Images.width-800.jpg.avif");
 }
 
 .intro-image.is-kanal-photo {
   background-image: url("./Kanalreinigung_about_us.webp");
+}
+
+.intro-image.is-kavanoz-photo {
+  background-image: url("./kavanoz.jpeg");
 }
 
 .intro-image.is-notdienst-photo {
@@ -2023,7 +2035,7 @@ body.nav-open .mobile-menu {
 }
 
 .signs-image.is-weitere-leistungen {
-  background-image: url("./Image_for_weitere_leistungen.webp");
+  background-image: url("./alet.jpeg");
 }
 
 .signs-image.is-kanal-signs {
@@ -2542,6 +2554,150 @@ body.nav-open .mobile-menu {
   }
 
   /* signs-body h2 covered by the block above */
+}
+
+/* Kanalreinigung mobile tuning */
+@media (max-width: 680px) {
+  .page-kanalreinigung .hero {
+    align-items: end;
+    min-height: 88svh;
+    padding: 104px 18px 42px;
+    text-align: left;
+  }
+
+  .page-kanalreinigung .hero-content {
+    text-align: left;
+  }
+
+  .page-kanalreinigung .hero-media {
+    background-position: 58% center;
+  }
+
+  .page-kanalreinigung .hero-overlay {
+    background:
+      linear-gradient(180deg, rgba(7, 16, 25, 0.08) 0%, rgba(7, 16, 25, 0.42) 38%, rgba(7, 16, 25, 0.82) 100%);
+  }
+
+  .page-kanalreinigung .hero-stamp {
+    top: 78px;
+    right: 16px;
+    width: 68px;
+  }
+
+  .page-kanalreinigung .eyebrow {
+    margin-bottom: 14px;
+    padding: 8px 10px;
+    font-size: 0.68rem;
+    line-height: 1.25;
+  }
+
+  .page-kanalreinigung h1 {
+    max-width: 100%;
+    margin-bottom: 16px;
+    font-size: clamp(2.15rem, 10.5vw, 3.15rem);
+    line-height: 1.04;
+  }
+
+  .page-kanalreinigung .hero-lede {
+    margin-bottom: 16px;
+    font-size: 0.98rem;
+    line-height: 1.48;
+  }
+
+  .page-kanalreinigung .hero-actions {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .page-kanalreinigung .intro-section {
+    padding-bottom: 56px;
+  }
+
+  .page-kanalreinigung .intro-image,
+  .page-kanalreinigung .signs-image {
+    aspect-ratio: 4 / 3;
+    min-height: 0;
+  }
+
+  .page-kanalreinigung .intro-content h2,
+  .page-kanalreinigung .signs-body h2,
+  .page-kanalreinigung .content-section h2,
+  .page-kanalreinigung .why-header h2,
+  .page-kanalreinigung .process-header h2,
+  .page-kanalreinigung .area-inner h2,
+  .page-kanalreinigung .faq-intro h2,
+  .page-kanalreinigung .final-content h2 {
+    font-size: clamp(1.7rem, 7vw, 2.2rem);
+    line-height: 1.14;
+    text-wrap: balance;
+  }
+
+  .page-kanalreinigung .intro-content p,
+  .page-kanalreinigung .signs-body > p:not(.section-kicker),
+  .page-kanalreinigung .content-prose p,
+  .page-kanalreinigung .why-lede,
+  .page-kanalreinigung .process-lede,
+  .page-kanalreinigung .area-lede,
+  .page-kanalreinigung .faq-lede,
+  .page-kanalreinigung .final-lede {
+    font-size: 0.98rem;
+    line-height: 1.62;
+  }
+
+  .page-kanalreinigung .service-list {
+    gap: 8px;
+    margin: 20px 0 24px;
+  }
+
+  .page-kanalreinigung .service-list li {
+    min-height: 0;
+    padding-left: 20px;
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  .page-kanalreinigung .detail-item,
+  .page-kanalreinigung .why-card {
+    padding-block: 18px;
+  }
+
+  .page-kanalreinigung .process-timeline {
+    grid-template-columns: 1fr;
+    row-gap: 22px;
+  }
+
+  .page-kanalreinigung .process-step {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+  }
+
+  .page-kanalreinigung .process-text h3 {
+    margin-bottom: 6px;
+  }
+
+  .page-kanalreinigung .area-chips {
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .page-kanalreinigung .area-chips li {
+    padding: 7px 10px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.75);
+    font-size: 0.92rem;
+  }
+
+  .page-kanalreinigung .area-chips li:not(:last-child)::after {
+    display: none;
+  }
+
+  .page-kanalreinigung .final-cta {
+    padding-bottom: 96px;
+  }
 }
 
 /* Gebäudereinigung service page backgrounds */
