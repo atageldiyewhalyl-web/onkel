@@ -96,9 +96,9 @@ a {
 
 .brand-logo {
   display: block;
-  height: 44px;
+  height: 56px;
   width: auto;
-  max-width: 200px;
+  max-width: 240px;
   object-fit: contain;
 }
 
@@ -2203,9 +2203,9 @@ body.nav-open .mobile-menu {
   }
 
   .brand-logo {
-    height: 38px;
+    height: 48px;
     width: auto;
-    max-width: 170px;
+    max-width: 200px;
   }
 
   .header-call {
