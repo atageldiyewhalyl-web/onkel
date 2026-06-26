@@ -16,4 +16,4 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://onkel-dienstleistungen.de/sitemap.xml
+Sitemap: https://www.onkel-abwassertechnik.de/sitemap.xml

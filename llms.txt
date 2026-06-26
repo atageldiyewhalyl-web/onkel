@@ -27,16 +27,16 @@ Onkel Dienstleistungen ist ein lokales Handwerksunternehmen in Mannheim (Baden-W
 
 ## Seiten
 
-- [Startseite](https://onkel-dienstleistungen.de/)
-- [Rohrreinigung Mannheim](https://onkel-dienstleistungen.de/rohrreinigung-mannheim/)
-- [Kanalreinigung Mannheim](https://onkel-dienstleistungen.de/kanalreinigung-mannheim/)
-- [Abflussreinigung Mannheim](https://onkel-dienstleistungen.de/abflussreinigung-mannheim/)
-- [24h Notdienst](https://onkel-dienstleistungen.de/rohrreinigung-notdienst-mannheim/)
-- [Rohr- & Kanalbau](https://onkel-dienstleistungen.de/rohr-kanalbau-mannheim/)
-- [Rohr- & Kanalinstandsetzung](https://onkel-dienstleistungen.de/rohr-kanalinstandsetzung-mannheim/)
-- [Gebäudereinigung](https://onkel-dienstleistungen.de/gebaeudereinigung-mannheim/)
-- [Hebeanlagen](https://onkel-dienstleistungen.de/hebeanlagen-mannheim/)
-- [Fliesenleger](https://onkel-dienstleistungen.de/fliesenleger-mannheim/)
+- [Startseite](https://www.onkel-abwassertechnik.de/)
+- [Rohrreinigung Mannheim](https://www.onkel-abwassertechnik.de/rohrreinigung-mannheim/)
+- [Kanalreinigung Mannheim](https://www.onkel-abwassertechnik.de/kanalreinigung-mannheim/)
+- [Abflussreinigung Mannheim](https://www.onkel-abwassertechnik.de/abflussreinigung-mannheim/)
+- [24h Notdienst](https://www.onkel-abwassertechnik.de/rohrreinigung-notdienst-mannheim/)
+- [Rohr- & Kanalbau](https://www.onkel-abwassertechnik.de/rohr-kanalbau-mannheim/)
+- [Rohr- & Kanalinstandsetzung](https://www.onkel-abwassertechnik.de/rohr-kanalinstandsetzung-mannheim/)
+- [Gebäudereinigung](https://www.onkel-abwassertechnik.de/gebaeudereinigung-mannheim/)
+- [Hebeanlagen](https://www.onkel-abwassertechnik.de/hebeanlagen-mannheim/)
+- [Fliesenleger](https://www.onkel-abwassertechnik.de/fliesenleger-mannheim/)
 
 ## Nicht indexiert
 
