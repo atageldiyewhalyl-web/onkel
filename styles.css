@@ -2281,7 +2281,7 @@ body.nav-open .mobile-menu {
     inset: 0 0 auto;
     height: calc(100vw * 9 / 16);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #dde0dc;
   }
