@@ -2264,6 +2264,23 @@ body.nav-open .mobile-menu {
       linear-gradient(180deg, rgba(7, 16, 25, 0.18) 0%, rgba(7, 16, 25, 0.32) 45%, rgba(7, 16, 25, 0.72) 100%);
   }
 
+  .page-fliesenleger .hero {
+    min-height: min(780px, calc(100svh - 82px));
+    padding: 98px 16px 34px;
+  }
+
+  .page-fliesenleger .hero-media.is-fliesenleger {
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e8e6df;
+  }
+
+  .page-fliesenleger .hero-overlay {
+    background:
+      linear-gradient(180deg, rgba(7, 16, 25, 0) 0%, rgba(7, 16, 25, 0.08) 48%, rgba(7, 16, 25, 0.72) 100%);
+  }
+
   h1 {
     width: 100%;
     max-width: 100%;
@@ -2870,6 +2887,15 @@ body.nav-open .mobile-menu {
 .signs-section.has-before-after {
   grid-template-columns: 1fr 1fr;
   padding-right: max(28px, calc((100vw - 1160px) / 2));
+}
+
+.signs-section.is-text-only {
+  grid-template-columns: 1fr;
+  padding: var(--section-pad) max(28px, calc((100vw - 1160px) / 2));
+}
+
+.signs-section.is-text-only .signs-body {
+  max-width: 900px;
 }
 
 @media (max-width: 900px) {
