@@ -2110,6 +2110,13 @@ body.nav-open .mobile-menu {
     background-position: center;
   }
 
+  .page-fliesenleger .intro-image.is-fliesenleger-photo {
+    aspect-ratio: 1 / 1;
+    background-image: url("./a.webp");
+    background-position: center;
+    background-size: cover;
+  }
+
   .intro-content {
     max-width: none;
     padding: 0 28px;
@@ -2338,6 +2345,13 @@ body.nav-open .mobile-menu {
     aspect-ratio: 9 / 16;
     min-height: 0;
     background-position: center;
+  }
+
+  .page-fliesenleger .intro-image.is-fliesenleger-photo {
+    aspect-ratio: 1 / 1;
+    background-image: url("./a.webp");
+    background-position: center;
+    background-size: cover;
   }
 
   .intro-content {
