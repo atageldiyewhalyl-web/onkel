@@ -2098,6 +2098,49 @@ body.nav-open .mobile-menu {
     width: 84px;
   }
 
+  .page-fliesenleger .hero {
+    min-height: 0;
+    padding: calc((100vw * 9 / 16) + 44px) 28px 70px;
+    background: linear-gradient(180deg, #4f585a 0%, #18232d 100%);
+  }
+
+  .page-fliesenleger .hero-media.is-fliesenleger {
+    inset: 0 0 auto;
+    height: calc(100vw * 9 / 16);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #dde0dc;
+    transform: none;
+  }
+
+  .page-fliesenleger .hero-overlay {
+    background:
+      linear-gradient(180deg, rgba(7, 16, 25, 0.06) 0%, rgba(7, 16, 25, 0.08) 32%, rgba(7, 16, 25, 0) 32.1%);
+  }
+
+  .page-fliesenleger .hero-stamp {
+    top: calc((100vw * 9 / 16) - 74px);
+    right: 28px;
+    width: clamp(82px, 13vw, 112px);
+  }
+
+  .page-fliesenleger .hero-content {
+    width: min(860px, 100%);
+    justify-self: center;
+    text-align: center;
+  }
+
+  .page-fliesenleger .hero h1 {
+    max-width: 900px;
+    font-size: clamp(2.8rem, 7.2vw, 4.4rem);
+    line-height: 1.08;
+  }
+
+  .page-fliesenleger .hero-lede {
+    max-width: 860px;
+  }
+
   .intro-section {
     grid-template-columns: 1fr;
     gap: 34px;
