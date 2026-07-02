@@ -1658,6 +1658,20 @@ h1 {
   gap: 22px;
 }
 
+.footer-credit {
+  color: rgba(255, 255, 255, 0.78);
+  transition: color 0.2s var(--ease);
+}
+
+.footer-credit strong {
+  color: var(--white);
+  font-weight: 850;
+}
+
+.footer-credit:hover {
+  color: var(--white);
+}
+
 .footer-legal a {
   transition: color 0.2s var(--ease);
 }

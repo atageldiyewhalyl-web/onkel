@@ -9,8 +9,10 @@
       content="Rohr verstopft in Mannheim? Onkel Dienstleistungen hilft bei Rohrreinigung, Kanalreinigung, Abflussreinigung, Rohrbruch und akuten Rohr- und Kanalproblemen."
     />
     <link rel="stylesheet" href="./styles.css?v=104" />
-    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="preload" as="image" href="./hero-background.webp" fetchpriority="high" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -23,13 +25,11 @@
   <meta property="og:url" content="https://www.onkel-abwassertechnik.de/" />
   <meta property="og:title" content="Rohrreinigung &amp; Kanalreinigung Mannheim | Onkel Dienstleistungen" />
   <meta property="og:description" content="Rohr verstopft in Mannheim? Onkel Dienstleistungen hilft bei Rohrreinigung, Kanalreinigung, Abflussreinigung, Rohrbruch und akuten Rohr- und Kanalproblemen." />
-  <meta property="og:image" content="https://www.onkel-abwassertechnik.de/favicon.png" />
-  <meta property="og:image:width" content="512" />
-  <meta property="og:image:height" content="512" />
+  <meta property="og:image" content="https://www.onkel-abwassertechnik.de/hero-background.webp" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Rohrreinigung &amp; Kanalreinigung Mannheim | Onkel Dienstleistungen" />
   <meta name="twitter:description" content="Rohr verstopft in Mannheim? Onkel Dienstleistungen hilft bei Rohrreinigung, Kanalreinigung, Abflussreinigung, Rohrbruch und akuten Rohr- und Kanalproblemen." />
-  <meta name="twitter:image" content="https://www.onkel-abwassertechnik.de/favicon.png" />
+  <meta name="twitter:image" content="https://www.onkel-abwassertechnik.de/hero-background.webp" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,15 +55,19 @@
           "latitude": 49.5095,
           "longitude": 8.5058
         },
-        "areaServed": {
-          "@type": "City",
-          "name": "Mannheim"
-        },
-        "openingHours": "Mo-Su 00:00-24:00",
+        "areaServed": [
+          {"@type": "City", "name": "Mannheim"},
+          {"@type": "City", "name": "Ludwigshafen"},
+          {"@type": "City", "name": "Heidelberg"},
+          {"@type": "City", "name": "Schwetzingen"},
+          {"@type": "City", "name": "Weinheim"},
+          {"@type": "City", "name": "Frankenthal"},
+          {"@type": "City", "name": "Viernheim"}
+        ],
+        "openingHours": ["Mo-Su 00:00-00:00"],
         "priceRange": "€€",
         "currenciesAccepted": "EUR",
         "paymentAccepted": "Cash, Bank Transfer",
-        "sameAs": []
       },
       {
         "@type": "WebSite",
@@ -236,7 +240,7 @@
               <span aria-hidden="true">☎</span>
               Jetzt anrufen
             </a>
-            <a class="button button-secondary" href="https://wa.me/4917680750350">
+            <a class="button button-secondary" href="https://wa.me/4917680750350" rel="noopener noreferrer">
               <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"
@@ -373,7 +377,7 @@
               <span aria-hidden="true">☎</span>
               Jetzt anrufen
             </a>
-            <a class="button button-secondary" href="https://wa.me/4917680750350">
+            <a class="button button-secondary" href="https://wa.me/4917680750350" rel="noopener noreferrer">
               <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"
@@ -400,7 +404,7 @@
             </p>
           </div>
           <div class="why-mascot" aria-hidden="true">
-            <img src="./Mascot_1.webp" alt="" />
+            <img src="./Mascot_1.webp" alt="" loading="lazy" />
           </div>
         </div>
 
@@ -449,7 +453,7 @@
               <span aria-hidden="true">☎</span>
               Jetzt anrufen
             </a>
-            <a class="button button-ghost" href="https://wa.me/4917680750350">
+            <a class="button button-ghost" href="https://wa.me/4917680750350" rel="noopener noreferrer">
               <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"
@@ -474,7 +478,7 @@
         <ol class="process-timeline">
           <li class="process-step">
             <span class="process-marker" aria-hidden="true">
-              <img class="process-icon" src="./icons%20for%20process/call.webp" alt="" />
+              <img class="process-icon" src="./icons%20for%20process/call.webp" alt="" loading="lazy" />
               <span class="process-num">01</span>
             </span>
             <div class="process-text">
@@ -485,7 +489,7 @@
 
           <li class="process-step">
             <span class="process-marker" aria-hidden="true">
-              <img class="process-icon" src="./icons%20for%20process/mover-truck.webp" alt="" />
+              <img class="process-icon" src="./icons%20for%20process/mover-truck.webp" alt="" loading="lazy" />
               <span class="process-num">02</span>
             </span>
             <div class="process-text">
@@ -496,7 +500,7 @@
 
           <li class="process-step">
             <span class="process-marker" aria-hidden="true">
-              <img class="process-icon" src="./icons%20for%20process/search.webp" alt="" />
+              <img class="process-icon" src="./icons%20for%20process/search.webp" alt="" loading="lazy" />
               <span class="process-num">03</span>
             </span>
             <div class="process-text">
@@ -507,7 +511,7 @@
 
           <li class="process-step">
             <span class="process-marker" aria-hidden="true">
-              <img class="process-icon" src="./icons%20for%20process/repair-tools.webp" alt="" />
+              <img class="process-icon" src="./icons%20for%20process/repair-tools.webp" alt="" loading="lazy" />
               <span class="process-num">04</span>
             </span>
             <div class="process-text">
@@ -648,7 +652,7 @@
             <span aria-hidden="true">☎</span>
             Jetzt anrufen
           </a>
-          <a class="button button-outline-light" href="https://wa.me/4917680750350">
+          <a class="button button-outline-light" href="https://wa.me/4917680750350" rel="noopener noreferrer">
             <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
               <path
                 d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"
@@ -679,7 +683,7 @@
               <span aria-hidden="true">☎</span>
               Jetzt anrufen
             </a>
-            <a class="button button-secondary" href="https://wa.me/4917680750350">
+            <a class="button button-secondary" href="https://wa.me/4917680750350" rel="noopener noreferrer">
               <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"
@@ -704,16 +708,17 @@
         <div class="footer-col">
           <h3>Kontakt</h3>
           <a href="tel:+4917680750350">☎ 017680750350</a>
-          <a href="https://wa.me/4917680750350">WhatsApp schreiben</a>
+          <a href="https://wa.me/4917680750350" rel="noopener noreferrer">WhatsApp schreiben</a>
           <p class="footer-note">
             Einsatzgebiet:<br />Mannheim &amp; Umgebung
           </p>
-          <img class="footer-badge-img" src="./24h-badge.webp" alt="24h Notdienst in Mannheim und Umgebung" />
+          <img class="footer-badge-img" src="./24h-badge.webp" alt="24h Notdienst in Mannheim und Umgebung" loading="lazy" />
         </div>
       </div>
 
       <div class="footer-bar">
-        <span>© 2026 Onkel Dienstleistungen</span>
+        <span>© 2026 Onkel™ Dienstleistungen</span>
+        <a class="footer-credit" href="https://nüll.com" target="_blank" rel="noopener noreferrer">Site made by <strong>nüll.com</strong></a>
         <span class="footer-legal">
           <a href="./impressum/">Impressum</a>
           <a href="./datenschutz/">Datenschutz</a>
@@ -723,7 +728,7 @@
 
     <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
       <a class="sticky-cta-btn sticky-cta-call" href="tel:+4917680750350">Anrufen</a>
-      <a class="sticky-cta-btn sticky-cta-whatsapp" href="https://wa.me/4917680750350">
+      <a class="sticky-cta-btn sticky-cta-whatsapp" href="https://wa.me/4917680750350" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L4 20.5l1.3-4A8.4 8.4 0 1 1 20.5 11.8Zm-8.4-6.6a6.6 6.6 0 0 0-5.6 10.1l.2.4-.8 2.4 2.5-.8.4.2A6.6 6.6 0 1 0 12.1 5.2Zm3.9 9.6c-.2.5-1.1 1-1.6 1.1-.4.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.5-4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.5c-.1.2-.3.3-.1.6.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.2 1.4.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.8.8c.3.2.5.3.6.5 0 .1 0 .6-.2 1Z"/></svg>
         WhatsApp
       </a>
